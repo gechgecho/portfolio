@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getasil Balew | Frontend Developer</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="nav-logo">Getasil Balew</div>
+        <div>
+            <ul class="nav-menu">
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#experience-section">Experience</a></li>
+                <li><a href="#projects-section">Projects</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <nav id="mobile-nav">
+        <div class="nav-logo">Getasil Balew</div>
+        <div class="mobile-menu">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="mobile-nav-links">
+                <li><a href="#about-section" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience-section" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects-section" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact-section" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section id="profile-section">
+        <div class="profile-image-container">
+            <img src="pro.jpg" alt="Getasil Balew profile picture">
+        </div>
+        <div class="profile-content">
+            <p class="profile-greeting">Hello I'm</p>
+            <h1 class="profile-name">Getasil Balew</h1>
+            <p class="profile-title">Frontend Developer</p>
+            <div class="profile-buttons">
+                <button class="btn btn-primary" onclick="window.open('#')">Download CV</button>
+                <button class="btn btn-secondary" onclick="location.href='./#contact-section'">Contact Info</button>
+            </div>
+            <div class="social-links">
+                <img src="github.png" alt="My GitHub profile" class="social-icon" onclick="location.href='https://github.com/'">
+                <img src="instagram.png" alt="My instagram profile" class="social-icon" onclick="location.href='https://instagram.com/'">
+                <img src="tiktok.png" alt="My TikTok profile" class="social-icon" onclick="location.href='https://tiktok.com/'">
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about-section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-image-container">
+                <img src="prof.png" alt="About Getasil Balew">
+            </div>
+            <div class="about-content">
+                <p class="about-text">
+                    my name is Getasil Balew.i am 21 years old I am a third-year computer science student at Gonder University.
+                     I have studied programming languages like C++, Java, HTML, CSS, and JavaScript.
+                      I have skills in web development, algorithms, and mathematical problems.
+                </p>
+                <div class="skills-container">
+                    <h3 class="skills-title">My Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">HTML5</div>
+                        <div class="skill-item">CSS3</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">Git & GitHub</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="experience-section">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-container">
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="experience-title">Frontend Developer</h3>
+                    <p class="experience-company">i works on different projects</p>
+                    <p class="experience-duration">2017 to till</p>
+                </div>
+                <div class="experience-description">
+                    <p>Developed responsive web sites using  JavaScript css and html
+                         Collaborated with designers and  developers to implement user interfaces. 
+                         </p>
+                </div>
+            </div>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="experience-title">other programming languages</h3>
+                    <p class="experience-company">at UOG student projects</p>
+                    <p class="experience-duration">2016 to till</p>
+                </div>
+                <div class="experience-description">
+                    <p>i develop some projects by using any other programming languges.
+                        like java and c++ if you wanna check by click projets on nav bar and.
+                        you can view the projects on clicking github icon.
+                        and also i have some database skills and this the road to become full stack developer.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects-section">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="mobile.jpg" alt="mobile banking management">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Mobile Banking Management System</h3>
+                    <p class="project-description">
+                        This is my project called Mobile Banking Management System. 
+                        I built this project in C++. It contains various algorithms, including all sorting and searching algorithms.
+                    </p>
+                    <div class="project-technologies">
+                        <span>c++</span>
+                        <span>algorithm</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="https://github.com/gechgecho/mobile-banking-management-system/blob/main/algorithm%20project%20mobile%20banking%20management%20system.cbp" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="school.jpg" alt="school Management">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">School Management</h3>
+                    <p class="project-description">
+                        This project is a school management system that can control student data. 
+                        It checks which teacher teaches each course, making it useful for every school. 
+                        This project was made in Java.
+                    </p>
+                    <div class="project-technologies">
+                        <span>java</span>
+                        <span>algorithm</span>
+                        <span>oop cocept</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/gechgecho/school-management-system/tree/main/schoolmanagementsystem1" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="restorant.jpg" alt="restorant image">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">efrata restorant</h3>
+                    <p class="project-description">
+                        this is efrata restorant  i make this project by using html,css,and java script.
+
+                    </p>
+                    <div class="project-technologies">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/gechgecho/efrata-restorant/blob/main/efra.html" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact-section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3 class="contact-subtitle">Get In Touch</h3>
+                <p class="contact-text">
+                    I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd like to work together or just say hello!
+                </p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <img src="email.png" alt="Email" class="contact-icon">
+                        <p>getasilethiopia@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="phon.png" alt="Phone" class="contact-icon">
+                        <p>+251906849620</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="location.jpg" alt="Location" class="contact-icon">
+                        <p>gonder, Ethiopia</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form" action="htpps://formsubmit.co/getasilethiopia@gmail.com" method="post">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="your email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="New Portfolio Contact!">
+                    <input type="hidden" name="_template" value="table">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer id="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2023 Getasil Balew. All Rights Reserved.</p>
+            <div class="footer-social-links">
+                <a href="https://instagram.com/"><img src="instagram.png" alt="Instagram"></a>
+                <a href="https://github.com/"><img src="github.png" alt="GitHub"></a>
+                <a href="https://tiktok.com/"><img src="tiktok.png" alt="TikTok"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

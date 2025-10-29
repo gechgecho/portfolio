@@ -1,0 +1,42 @@
+
+@media screen and (max-width: 1024px) {
+    section {
+        padding: 4rem 5%;
+    }
+    
+    .profile-name {
+        font-size: 2.5rem;
+    }
+    
+    .projects-container {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        padding: 3rem 5%;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .profile-name {
+        font-size: 2rem;
+    }
+    
+    .profile-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 200px;
+    }
+    
+    .certificates-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
